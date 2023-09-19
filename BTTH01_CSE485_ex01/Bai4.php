@@ -8,6 +8,8 @@ Kingdom" => "London", "Cyprus" => "Nicosia", "Lithuania" => "Vilnius", "Czech
 Republic" => "Prague", "Estonia" => "Tallin", "Hungary" => "Budapest", "Latvia" => 
 "Riga", "Malta" => "Valetta", "Austria" => "Vienna", "Poland" => "Warsaw");
 
-for ($i = 0 ; $i <count($arrs) ; $i++){
-    echo "Thủ đô của " . array_keys($arrs[$i]) . " là " . array_values($arrs[$i]) . '<br>';
+function Capital($key , $value){
+    echo "Thủ đô của " . $value . " là " . $key .'<br>';
 }
+
+array_walk($arrs , 'Capital');
