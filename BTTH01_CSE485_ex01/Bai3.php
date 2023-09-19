@@ -1,8 +1,21 @@
 <?php
+
 $arrs = ['PHP', 'HTML', 'CSS', 'JS'];
 ?>
+<html  > 
+    <style>
+table, td, th {
+  border: 2px solid;
+}
 
-<table border = '1'>
+table {
+  border-collapse: collapse;}
+    </style>
+    
+   
+
+
+    <table>
         <tr>
             <th>Tên khoá học</th>
         </tr>
@@ -15,3 +28,5 @@ $arrs = ['PHP', 'HTML', 'CSS', 'JS'];
 
         <?php endfor ; ?>
     </table>
+</html
+
