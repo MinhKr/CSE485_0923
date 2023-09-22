@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display : flex;
+}
+.header_left{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+.text_header_left {
+    display : flex;
+}
+
+.text_header_left a{
+    text-decoration: none;
+    color : black;
+    padding-right: 10px;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.header_right{
+    margin: auto;
+    text-align: end;
+    width: 30%;
+}
+
+.header_right input{
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.header_right button{
+    height: 30px;
+    border-radius: 5px;
+    color: #7fb49c;
+    border: 1px solid #7fb49c;
+    width:30px;
+}
+
+.footer h3{
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
