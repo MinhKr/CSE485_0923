@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="header">
@@ -24,11 +24,11 @@
 
     <div class="article">
         <div class="article_img_large">
-            <img src="" alt="">
+            <img src="./img/Latin-favorites.png" alt="" style = "width: 100%;">
         </div>
 
         <div class="article_menu">
-
+            <p class = "top_song" style = "">TOP BÀI HÁT YÊU THÍCH</p>
         </div>
     </div>
 

@@ -42,4 +42,4 @@ foreach($numbers as $item){
 
 echo "Tổng các phần tử trong mảng là " . $total ."<br>";
 
-//Tăng theo key
+

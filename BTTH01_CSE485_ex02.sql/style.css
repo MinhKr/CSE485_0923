@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .header{
     display : flex;
 }
@@ -45,9 +44,17 @@
     width:30px;
 }
 
-.footer h3{
+.footer h3 {
     text-align: center;
     justify-items: center;
     margin: auto;
     margin-top: 10px;
+}
+
+.article_menu p{
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 2000px;
+    color : #1d68d3;
 }
