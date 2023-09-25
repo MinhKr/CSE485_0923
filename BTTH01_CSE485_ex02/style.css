@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*header*/
 .header{
     display : flex;
 }
@@ -44,6 +46,7 @@
     width:30px;
 }
 
+/*footer*/
 .footer h3 {
     text-align: center;
     justify-items: center;
@@ -51,10 +54,25 @@
     margin-top: 10px;
 }
 
-.article_menu p{
+.article_menu h2{
     text-align: center;
     justify-items: center;
     margin: auto;
-    margin-top: 2000px;
+    margin:15px 0;
     color : #1d68d3;
 }
+/*
+.song a{
+    float: left;
+    width: 23%;
+} 
+*/
+/*
+.song img{
+    width: 95%;
+}
+
+.footer.clear{
+    clear : left;
+}
+*/
