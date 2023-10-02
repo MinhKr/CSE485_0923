@@ -29,23 +29,40 @@
 .header_right{
     margin: auto;
     text-align: end;
-    width: 30%;
+    width: 40%;
 }
 
 .header_right input{
-    height: 30px;
+    height: 50px;
     width: 50%;
     border-radius: 5px;
 }
 
 .header_right button{
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
     color: #7fb49c;
     border: 1px solid #7fb49c;
     width:30px;
 }
 
+/*article*/
+.article {
+    width: 100%;
+    display: flex;
+}
+
+.art_left{
+    width: 40%;
+}
+
+.art_left img{
+   justify-content: flex-end;
+}
+
+.art_right{
+    width: 60%;
+}
 /*footer*/
 .footer h3 {
     text-align: center;
@@ -61,6 +78,10 @@
     margin:15px 0;
     color : #1d68d3;
 }
+
+
+
+
 /*
 .song a{
     float: left;
