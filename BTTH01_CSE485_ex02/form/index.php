@@ -11,8 +11,8 @@
     <div class="header">
             <img src="../img/music_for_life.png" alt="" style = "width:20%;">
             <div class="text_header_left">
-                <a href="" style = "font-weight : bold; margin-left:10px">TRANG CHỦ</a>
-                <a href="">ĐĂNG NHẬP</a>
+                <a href="" style = "font-weight : bold; margin-left:10px; font-size:20px;">TRANG CHỦ</a>
+                <a href="" style = "font-size:20px;">ĐĂNG NHẬP</a>
             </div>
 
             <div class="header_right">
